@@ -1,0 +1,141 @@
+
+--------------------------------------------
+## Test description: Verify that the Profit Center is automatically derived based on Ship-to-party and Customer combination in accounting documents generated from OTC processes.
+## Preconditions: 
+User has access to the system with necessary permissions.
+ -The OTC process is set up and functioning correctly.
+## Test Data: 
+Create a sample accounting document in the system related to OTC processes with valid Ship-to-party and Customer combination.
+## Execution Steps: 
+Navigate to the accounting document in the system.
+ -Review the Profit Center field to ensure it is automatically derived from the Ship-to-party and Customer combination.
+ -Validate that the Profit Center matches the expected value based on the Ship-to-party and Customer combination.
+## Expected Result: 
+The Profit Center field should display the correct value based on the Ship-to-party and Customer combination.
+ -There should be no manual intervention required to determine the Profit Center.
+ -The derived Profit Center should be accurate and align with the expected functionality.
+--------------------------------------------
+
+
+--------------------------------------------
+## Test description: Verify that profit center is correctly derived based on Ship-to-party and Customer combination in accounting documents generated from OTC processes.
+## Preconditions: 
+User has access to the OTC process in the system.
+ -The table ZFI_PCA_SUB_CUST has been maintained with relevant Profit Center mappings.
+## Test Data: 
+Sample accounting documents with Ship-to-party and Customer combination.
+## Execution Steps: 
+Create a sales order with relevant Ship-to-party and Customer combination.
+ -Process the sales order to generate accounting documents.
+ -Check the derived Profit Center in the generated accounting documents.
+## Expected Result: 
+The Profit Center should be automatically determined based on Ship-to-party and Customer combination.
+ -The derived Profit Center should match the mapping maintained in table ZFI_PCA_SUB_CUST.
+--------------------------------------------
+
+
+--------------------------------------------
+## Test description: Verify that the Profit Center is automatically derived based on Ship-to-party and Customer combination in accounting documents generated from OTC processes.
+## Preconditions: 
+Access to the system with testing permissions.
+ -OTC process is set up with Ship-to-party and Customer combination.
+## Test Data: 
+Create a new accounting document in the OTC process with valid Ship-to-party and Customer combination data.
+## Execution Steps: 
+Navigate to the OTC module in the system.
+ -Create a new accounting document with specific Ship-to-party and Customer combination data.
+ -Generate the accounting document and observe the Profit Center derivation process.
+## Expected Result: 
+The Profit Center should be automatically determined based on the Ship-to-party and Customer combination in the accounting document.
+ -Verify that the Profit Center derived matches the data configured in the system for the Ship-to-party and Customer combination.
+ -Ensure that no manual intervention is required for Profit Center determination.
+--------------------------------------------
+
+
+--------------------------------------------
+## Test description: Verify that the Profit Center is automatically determined based on Ship-to-party and Customer combination in accounting documents generated from OTC processes.
+## Preconditions: 
+User has valid access to the system.
+ -OTC process is running with Ship-to-party and Customer combination data available.
+## Test Data: 
+Sample accounting documents with Ship-to-party, Customer, and Profit Center data.
+## Execution Steps: 
+Navigate to the OTC process in the system.
+ -Generate an accounting document.
+ -Verify that the Profit Center is derived based on Ship-to-party and Customer combination.
+## Expected Result: 
+The Profit Center should be automatically determined from the Ship-to-party and Customer combination.
+ -No manual intervention should be required to determine the Profit Center.
+--------------------------------------------
+
+
+--------------------------------------------
+## Test description: Verify that Profit Center is automatically determined based on Ship-to-Party and Customer Code in accounting documents for OTC processes
+## Preconditions: 
+User has access to the OTC system
+ -Customer and Ship-to-Party codes are defined in the system
+## Test Data: 
+Create a new sales order and check the generated accounting documents
+## Execution Steps: 
+Create a new sales order with specific Customer and Ship-to-Party codes
+ -Complete the sales order to generate accounting documents
+ -Verify the Profit Center field in the accounting documents
+## Expected Result: 
+The Profit Center should be automatically derived based on the Ship-to-Party and Customer Code
+ -The Profit Center should match the values defined in the ZFI_PCA_SUB_CUST table
+--------------------------------------------
+
+
+--------------------------------------------
+## Test description: Verify that profit center is derived based on Ship-to-party and Customer combination in accounting documents generated from OTC processes.
+## Preconditions: 
+System is set up with necessary configurations for OTC processes.
+## Test Data: 
+Valid sales order with Ship-to-party and Customer combination.
+## Execution Steps: 
+Create a sales order with a valid Ship-to-party and Customer combination.
+ -Process the sales order to generate the accounting documents.
+ -Verify that the profit center is automatically determined based on Ship-to-party and Customer combination.
+## Expected Result: 
+The profit center is derived correctly based on Ship-to-party and Customer combination in the accounting documents.
+ -No manual intervention is required for profit center determination.
+--------------------------------------------
+
+
+--------------------------------------------
+## Test description: Verify that Profit Center is derived correctly based on Ship-to-party and Customer combination in accounting documents for OTC processes.
+## Preconditions: 
+Access to the system with necessary permissions.
+ -Availability of Ship-to-party and Customer combination data in accounting documents.
+## Test Data: 
+Mock accounting documents with different Ship-to-party and Customer combination data.
+## Execution Steps: 
+Navigate to the OTC process in the system.
+ -Generate accounting documents for various transactions.
+ -Verify that Profit Center is automatically derived based on the Ship-to-party and Customer combination.
+ -Check that the derived Profit Center matches the expected values.
+ -Repeat the above steps for different combinations of Ship-to-party and Customer.
+## Expected Result: 
+Profit Center should be automatically determined based on Ship-to-party and Customer combination.
+ -Profit Center values should match the expected values specified in the documents.
+ -System should accurately derive Profit Centers for different scenarios.
+--------------------------------------------
+
+
+--------------------------------------------
+## Test description: Verify that the Profit Center is derived correctly based on Ship-to-party and Customer combination in accounting documents generated from OTC processes.
+## Preconditions: 
+Access to the system with appropriate permissions.
+ -OTC process is set up with relevant Ship-to-party and Customer data.
+## Test Data: 
+Create test sales orders with different Ship-to-party and Customer combinations.
+## Execution Steps: 
+Navigate to the OTC process in the system.
+ -Create sales orders with various Ship-to-party and Customer combinations.
+ -Generate accounting documents related to the created sales orders.
+ -Check the derived Profit Center in the accounting documents.
+## Expected Result: 
+The Profit Center should be automatically determined based on the Ship-to-party and Customer Code in the accounting documents.
+ -Profit Centers derived should match the expected values set in the ZFI_PCA_SUB_CUST table.
+--------------------------------------------
+
